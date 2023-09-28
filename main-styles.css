@@ -2,9 +2,24 @@
     width: 15vw;
     height: 15vw;
     border-radius: 50%;
+    padding-top: 15px;
 }
 
 header {
     display: flex;
     flex-direction: row;
+    gap: 30px;
+}
+
+table {
+    border : 1px solid black;
+}
+
+th {
+    border : 1px solid black;
+}
+
+td {
+    border : 1px solid black;
+    text-align: center;
 }
