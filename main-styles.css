@@ -1,0 +1,10 @@
+.profilePicture {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}

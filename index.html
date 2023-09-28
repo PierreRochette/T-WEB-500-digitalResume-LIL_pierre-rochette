@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pierre Rochette's Digital Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="main-styles.css">
+    <link rel="stylesheet" href="mobile-styles.css">
+    <link rel="stylesheet" href="tablet-styles.css">
+    <link rel="stylesheet" href="desktop-styles.css">
     <script defer src="https://friconix.com/cdn/friconix.js"> </script>
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.11.0/css/flag-icons.min.css"/>
@@ -25,10 +28,10 @@
 
 
 
-    <div class="container">
+    <div class="mainAsideContainer">
         <main>
 
-            <div class="growingSkills">
+            <div class="growingSkills item">
                 <h2 class="growingSkillsTitle">GROWING SKILLS <i class="fi-cnsuxl-lotus-solid"></i></h2> 
                 <table>
                     <thead>
@@ -70,7 +73,7 @@
 
             </div>
 
-            <div class="softSkills">
+            <div class="softSkills item">
                 <h2 class="softSkillsTitle">SOFT SKILLS <i class="fi-cnsuhl-brain-side-alt"></i></h2>
                 <ul>
                     <li>Sociability & Communication</li>
@@ -84,7 +87,7 @@
 
 
 
-            <div class="professionalExp">
+            <div class="professionalExp item">
                 <h2 class="professionalExpTitle">PROFESSIONAL EXPERIENCES <i class="fa-solid fa-briefcase"></i></h2>
                 <ul>
                     <li>Legal Assistant (Internship)</li>
@@ -97,7 +100,7 @@
                 </ul>
             </div>
 
-            <div class="education">
+            <div class="education item">
                 <h2 class="educationTitle">EDUCATION <i class=fi-cnsuxl-graduation-cap-solid></i></h2>
                 
                 <ul>
@@ -112,7 +115,7 @@
 
             </div>
 
-            <div class="certifOthers">
+            <div class="certifOthers item">
                 <h2 class="certifOthersTitle">CERTIFICATIONS, OTHERS.... <i class="fi-cwsuxl-check"></i></h2>
                 
                 <ul>
@@ -138,10 +141,10 @@
 
         <aside>
 
-            <div class="aboutMe">
+            <div class="aboutMe item">
 
-                <h2 class="aboutMeTitle">ABOUT ME</h2>
-                <i class="fi-cnsuxl-question-mark"></i>
+                <h2 class="aboutMeTitle">ABOUT ME <i class="fi-cnsuxl-question-mark"></i></h2>
+                
 
                     <div class="goals">
 
@@ -184,31 +187,31 @@
 
 
     <footer>
+        <h2 class="contactLinksTitle">Contact & Links</h2>
+        <div class="footerContainer">
+            <div class="contact">
+                <h3 class="contactTitle">Contact</h3>
+                
+                <p><i class="fi-xnsrxl-phone-solid"></i> (+33) 6.75.88.19.17</p>
+                <p><i class="fi-xwsuxl-envelope-solid"></i> rochettebonassi.pierre@gmail.com</p> 
+                <p><i class="fi-xnsuxl-house-solid"></i> Pierre Rochette, 11 Place Jacquard, 59800 LILLE</p>
+            
+            </div>
 
-        <div class="contact">
+            <div class="links">
 
-            <h2 class="contactLinksTitle">Contact & Links</h2>
-            <h3 class="contactTitle">Contact</h3>
-            <i class="fi-xnsrxl-phone-solid"></i>
-            <p>(+33)6.75.88.19.17</p>
-            <i class="fi-xwsuxl-envelope-solid"></i>
-            <p>rochettebonassi.pierre@gmail.com</p>
-            <i class="fi-xnsuxl-house-solid"></i>
-            <p>Pierre Rochette, 11 Place Jacquard, 59800 LILLE</p>
+                <h3 class="linksTitle">Links</h3>
+                
+                <a href="https://www.linkedin.com/in/pierre-rochette-a90332151/"><p><i class="fi-snsuxl-linkedin"></i> Linkedin</p></a>
+                <a href="https://github.com/PierreRochette"><p><i class="fi-xnsuxl-github"></i> Scholar Github</p></a>
+                <a href="https://github.com/Rocket859"><p><i class="fi-xnsuxl-github"></i> Personnal Github</p></a>
 
-            <h3 class="linksTitle">Links</h3>
-            <i class="fi-snsuxl-linkedin"></i>
-            <p><a>Linkedin</a></p>
-            <i class="fi-xnsuxl-github"></i>
-            <p><a>Scholar Github</a></p>
-            <i class="fi-xnsuxl-github"></i>
-            <p><a>Personnal Github</a></p>
-
+            </div>
         </div>
 
     </footer>
 
-    <p>View this resume's code on <a>Github</a></p>
+    <p class="lastPar">View this resume's code on <a class="lastA">Github</a></p>
     
 </body>
 </html>
