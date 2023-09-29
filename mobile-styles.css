@@ -1,9 +1,29 @@
 @media screen and (max-width: 767px) {
 
+    .profilePicture {
+        width: 15vw;
+        height: 15vw;
+        border-radius: 50%;
+        align-self: center;
+        margin-left: 1vw;
+    }
+
     body {
         width: 95%; 
         margin-left: auto;
         margin-right: auto;
+    }
+
+    main {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    div {
+        height: 80%; 
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     footer {

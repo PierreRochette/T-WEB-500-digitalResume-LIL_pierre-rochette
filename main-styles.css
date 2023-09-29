@@ -1,11 +1,3 @@
-.profilePicture {
-    width: 15vw;
-    height: 15vw;
-    border-radius: 50%;
-    padding-top: 15px;
-    padding-left: 15px;
-}
-
 html {
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(190,190,190,1) 100%);
 }
@@ -18,12 +10,26 @@ header {
     border-bottom: 1px solid black;
 }
 
+h1 {
+    font-family: 'Onest', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+header p {
+    font-family: 'Onest', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
 body {
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 50%, rgba(255,255,255,1) 100%);
     border-left : 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
 
+}
+
+p {
+    font-size: 18px;
 }
 
 
@@ -55,7 +61,20 @@ td {
 li {
     font-family: 'Onest', sans-serif;
     font-family: 'Oswald', sans-serif;
+    font-size: 18px;
     color: #001A23;
+}
+
+.professionalExp li {
+    color : #93a412
+}
+
+.education li {
+    color : #93a412; 
+}
+
+.certifOthers li {
+    color : #93a412;
 }
 ul {
     width: 90%; 
@@ -64,13 +83,15 @@ ul {
     color: #001A23;
 }
 
-div {
-    height: 80%; 
-    margin-top: auto;
-    margin-bottom: auto;
-}
 
-main, aside p {
+
+main p {
+    font-family: 'Onest', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color: #001A23;
+} 
+
+aside p {
     font-family: 'Onest', sans-serif;
     font-family: 'Oswald', sans-serif;
     color: #001A23;
@@ -94,3 +115,18 @@ aside h3 {
     color: #3f533f;
 }
 
+footer h2 {
+    font-family: 'Onest', sans-serif;
+    font-family: 'Oswald', sans-serif;   
+}
+
+footer h3 {
+    font-family: 'Onest', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+footer p {
+    font-family: 'Onest', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
